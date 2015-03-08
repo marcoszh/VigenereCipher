@@ -5,7 +5,7 @@ A Java implemention of Vigenere Cipher
 
  - Generate a random key with a given length
  - Encrpt and Decrypt a document
- - Attack Vigenere encryption with 2 different approaches(Kasiski examination and Friedman test), change the referrence between getKeyLen and getKeyLen1 in Vigenere.java to use different approach.
+ - Attack Vigenere encryption with 2 different approaches (Kasiski examination and Friedman test), change the referrence between getKeyLen and getKeyLen1 in Vigenere.java to use different approach.
  
 # Known Issues
 
