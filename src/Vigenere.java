@@ -144,12 +144,12 @@ public class Vigenere {
 		for (Entry<Integer, TreeMap<Character, Double>> entry : percen
 				.entrySet()) {
 			int type = entry.getKey();
-			TreeMap<Character, Double> odstotki = entry.getValue();
+			TreeMap<Character, Double> percentage = entry.getValue();
 			for (int i = 0; i < alp.length(); i++) {
 				Character m = Character.valueOf(alp.charAt(i));
 				double value;
-				if (odstotki.containsKey(m)) {
-					value = odstotki.get(m);
+				if (percentage.containsKey(m)) {
+					value = percentage.get(m);
 				} else {
 					value = 0;
 				}
